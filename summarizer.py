@@ -26,8 +26,7 @@ st.markdown(
 with st.sidebar:
     st.header("Configuration")
     url = st.text_input("YouTube URL", "")
-    api_key = st.text_input("Gemini API Key", type="password")
-    )
+    api_key = st.text_input("Gemini API Key", type="password")s
     summarize = st.button("Summarize Video")
 
 if summarize:
