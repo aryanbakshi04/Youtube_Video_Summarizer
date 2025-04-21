@@ -27,6 +27,10 @@ with st.sidebar:
     st.header("Configuration")
     url = st.text_input("YouTube URL", "")
     api_key = st.text_input("Gemini API Key", type="password")s
+    model_id = st.selectbox(
+        "Gemini Model",
+        ["gemini-2.0-flash-exp", "gemini-2.0-flash"]
+    )
     summarize = st.button("Summarize Video")
 
 if summarize:
