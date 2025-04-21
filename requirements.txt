@@ -1,0 +1,6 @@
+streamlit
+youtube-transcript-api
+rpunct @ git+https://github.com/babthamotharan/rpunct.git@patch-2
+google-genai
+agno
+plotly
