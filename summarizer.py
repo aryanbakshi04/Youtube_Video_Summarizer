@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🎥",
     layout="wide",
 )
-pip install youtube_transcript_api
+
 from youtube_transcript_api import YouTubeTranscriptApi
 from rpunct import RestorePuncts
 from agno.agent import Agent
